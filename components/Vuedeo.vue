@@ -245,21 +245,14 @@ function toggleFullscreen() {
 }
 .visible-slider {
     width: 100%;
-    /* background: rgb(163, 163, 163); */
-    /* background: rgba(0, 0, 0, 0.301); */
     height: 10px;
     position: relative;
     top: -20px;
     margin-bottom: -20px;
     border-radius: 3px;
     pointer-events: none;
-    /* border-top: 1px solid rgba(255, 255, 255, 0.473); */
     padding: 5px 0;
 }
-
-/* .bottom-controls:hover .visible-slider {
-    height: 15px;
-} */
 
 .visible-slider-thumb {
     height: 100%;
@@ -280,7 +273,6 @@ function toggleFullscreen() {
     background: rgba(0, 0, 0, 0.301);
     padding: 5px;
     border-radius: 5px;
-    /* border: 1px solid red; */
 }
 
 .hidden-cursor {
@@ -304,9 +296,6 @@ function toggleFullscreen() {
     height: 60px;
     backdrop-filter: blur(2px);
     transition: opacity 0.6s;
-    /* border-radius: 3px; */
-    /* border: 1px solid red; */
-
 }
 
 .top-controls {
@@ -328,13 +317,10 @@ function toggleFullscreen() {
 
 .video-container {
     width: 100%;
-    background: black;
     display: flex;
     flex-direction: column;
-    max-width: 80%;
     margin: auto;
     user-select: none;
-    /* overflow: hidden; */
     color: rgb(230, 230, 230);
     font-family: 'Inter', sans-serif;
     max-height: 100%;
@@ -360,10 +346,7 @@ function toggleFullscreen() {
     justify-content: center;
     align-items: center;
     border-radius: 50px;
-    /* backdrop-filter: blur(10px); */
     cursor: default;
-    /* background: black; */
-    /* text-shadow: 0px 0px 8px black; */
     background: rgba(0, 0, 0, 0.301);
     padding: 5px;
     border-radius: 5px;
@@ -393,7 +376,6 @@ function toggleFullscreen() {
     -webkit-appearance: none;
     background: transparent;
     z-index: 100;
-    /* border-radius: 2px; */
     height: 10px;
 }
 
@@ -407,7 +389,6 @@ function toggleFullscreen() {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* text-shadow: 0px 0px 8px black; */
     background: rgba(0, 0, 0, 0.301);
     padding: 7px;
     border-radius: 5px;
@@ -416,7 +397,7 @@ function toggleFullscreen() {
 
 
 .material-symbols-outlined {
-    /* font-size: 1.7em; */
+    font-size: 1.2em;
 }
 
 .volume {
